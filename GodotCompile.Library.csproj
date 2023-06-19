@@ -10,4 +10,7 @@
     <ItemGroup>
         <Compile Include="**/*.php" />
     </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="GLPchp" Version="0.2.3" />
+    </ItemGroup>
 </Project>
