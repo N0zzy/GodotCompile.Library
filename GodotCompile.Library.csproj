@@ -1,8 +1,0 @@
-<Project Sdk="Peachpie.NET.Sdk/1.1.9">
-    <PropertyGroup>
-        <TargetFramework>net7.0</TargetFramework>
-    </PropertyGroup>
-    <ItemGroup>
-        <Compile Include="**/*.php" />
-    </ItemGroup>
-</Project>
