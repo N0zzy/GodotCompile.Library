@@ -1,2 +1,2 @@
 # GodotCompile.Library
-GodotCompile.Library package
+GodotCompile.Library package (modification PhpParser for peachpie)
