@@ -1,9 +1,9 @@
 <?php 
 
-namespace PhpParser\NodeVisitor;
+namespace GLPchp\Compile\PhpParser\NodeVisitor;
 
-use PhpParser\Node;
-use PhpParser\NodeVisitorAbstract;
+use GLPchp\Compile\PhpParser\Node;
+use GLPchp\Compile\PhpParser\NodeVisitorAbstract;
 
 /**
  * This visitor can be used to find and collect all nodes satisfying some criterion determined by

@@ -1,8 +1,8 @@
 <?php 
 
-namespace PhpParser\Node;
+namespace GLPchp\Compile\PhpParser\Node;
 
-use PhpParser\NodeAbstract;
+use GLPchp\Compile\PhpParser\NodeAbstract;
 
 /**
  * Represents the "..." in "foo(...)" of the first-class callable syntax.

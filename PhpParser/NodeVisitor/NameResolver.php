@@ -1,15 +1,15 @@
 <?php 
 
-namespace PhpParser\NodeVisitor;
+namespace GLPchp\Compile\PhpParser\NodeVisitor;
 
-use PhpParser\ErrorHandler;
-use PhpParser\NameContext;
-use PhpParser\Node;
-use PhpParser\Node\Expr;
-use PhpParser\Node\Name;
-use PhpParser\Node\Name\FullyQualified;
-use PhpParser\Node\Stmt;
-use PhpParser\NodeVisitorAbstract;
+use GLPchp\Compile\PhpParser\ErrorHandler;
+use GLPchp\Compile\PhpParser\NameContext;
+use GLPchp\Compile\PhpParser\Node;
+use GLPchp\Compile\PhpParser\Node\Expr;
+use GLPchp\Compile\PhpParser\Node\Name;
+use GLPchp\Compile\PhpParser\Node\Name\FullyQualified;
+use GLPchp\Compile\PhpParser\Node\Stmt;
+use GLPchp\Compile\PhpParser\NodeVisitorAbstract;
 
 class NameResolver extends NodeVisitorAbstract
 {

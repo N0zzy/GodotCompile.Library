@@ -1,9 +1,9 @@
 <?php 
 
-namespace PhpParser\ErrorHandler;
+namespace GLPchp\Compile\PhpParser\ErrorHandler;
 
-use PhpParser\Error;
-use PhpParser\ErrorHandler;
+use GLPchp\Compile\PhpParser\Error;
+use GLPchp\Compile\PhpParser\ErrorHandler;
 
 /**
  * Error handler that collects all errors into an array.

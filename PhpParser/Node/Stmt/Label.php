@@ -1,9 +1,9 @@
 <?php 
 
-namespace PhpParser\Node\Stmt;
+namespace GLPchp\Compile\PhpParser\Node\Stmt;
 
-use PhpParser\Node\Identifier;
-use PhpParser\Node\Stmt;
+use GLPchp\Compile\PhpParser\Node\Identifier;
+use GLPchp\Compile\PhpParser\Node\Stmt;
 
 class Label extends Stmt
 {

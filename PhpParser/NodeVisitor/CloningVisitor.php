@@ -1,9 +1,9 @@
 <?php 
 
-namespace PhpParser\NodeVisitor;
+namespace GLPchp\Compile\PhpParser\NodeVisitor;
 
-use PhpParser\Node;
-use PhpParser\NodeVisitorAbstract;
+use GLPchp\Compile\PhpParser\Node;
+use GLPchp\Compile\PhpParser\NodeVisitorAbstract;
 
 /**
  * Visitor cloning all nodes and linking to the original nodes using an attribute.

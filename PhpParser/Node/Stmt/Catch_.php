@@ -1,9 +1,9 @@
 <?php 
 
-namespace PhpParser\Node\Stmt;
+namespace GLPchp\Compile\PhpParser\Node\Stmt;
 
-use PhpParser\Node;
-use PhpParser\Node\Expr;
+use GLPchp\Compile\PhpParser\Node;
+use GLPchp\Compile\PhpParser\Node\Expr;
 
 class Catch_ extends Node\Stmt
 {

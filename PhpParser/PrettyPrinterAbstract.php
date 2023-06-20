@@ -1,16 +1,16 @@
 <?php 
 
-namespace PhpParser;
+namespace GLPchp\Compile\PhpParser;
 
-use PhpParser\Internal\DiffElem;
-use PhpParser\Internal\PrintableNewAnonClassNode;
-use PhpParser\Internal\TokenStream;
-use PhpParser\Node\Expr;
-use PhpParser\Node\Expr\AssignOp;
-use PhpParser\Node\Expr\BinaryOp;
-use PhpParser\Node\Expr\Cast;
-use PhpParser\Node\Scalar;
-use PhpParser\Node\Stmt;
+use GLPchp\Compile\PhpParser\Internal\DiffElem;
+use GLPchp\Compile\PhpParser\Internal\PrintableNewAnonClassNode;
+use GLPchp\Compile\PhpParser\Internal\TokenStream;
+use GLPchp\Compile\PhpParser\Node\Expr;
+use GLPchp\Compile\PhpParser\Node\Expr\AssignOp;
+use GLPchp\Compile\PhpParser\Node\Expr\BinaryOp;
+use GLPchp\Compile\PhpParser\Node\Expr\Cast;
+use GLPchp\Compile\PhpParser\Node\Scalar;
+use GLPchp\Compile\PhpParser\Node\Stmt;
 
 abstract class PrettyPrinterAbstract
 {

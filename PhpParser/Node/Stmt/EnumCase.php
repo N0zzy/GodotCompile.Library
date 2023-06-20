@@ -1,9 +1,9 @@
 <?php 
 
-namespace PhpParser\Node\Stmt;
+namespace GLPchp\Compile\PhpParser\Node\Stmt;
 
-use PhpParser\Node;
-use PhpParser\Node\AttributeGroup;
+use GLPchp\Compile\PhpParser\Node;
+use GLPchp\Compile\PhpParser\Node\AttributeGroup;
 
 class EnumCase extends Node\Stmt
 {

@@ -1,10 +1,10 @@
 <?php 
 
-namespace PhpParser\Node\Expr;
+namespace GLPchp\Compile\PhpParser\Node\Expr;
 
-use PhpParser\Node;
-use PhpParser\Node\Expr;
-use PhpParser\Node\FunctionLike;
+use GLPchp\Compile\PhpParser\Node;
+use GLPchp\Compile\PhpParser\Node\Expr;
+use GLPchp\Compile\PhpParser\Node\FunctionLike;
 
 class ArrowFunction extends Expr implements FunctionLike
 {

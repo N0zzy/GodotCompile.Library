@@ -1,8 +1,8 @@
 <?php 
 
-namespace PhpParser\Node\Scalar;
+namespace GLPchp\Compile\PhpParser\Node\Scalar;
 
-use PhpParser\Node\Scalar;
+use GLPchp\Compile\PhpParser\Node\Scalar;
 
 class EncapsedStringPart extends Scalar
 {

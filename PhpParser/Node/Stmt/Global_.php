@@ -1,8 +1,8 @@
 <?php 
 
-namespace PhpParser\Node\Stmt;
+namespace GLPchp\Compile\PhpParser\Node\Stmt;
 
-use PhpParser\Node;
+use GLPchp\Compile\PhpParser\Node;
 
 class Global_ extends Node\Stmt
 {

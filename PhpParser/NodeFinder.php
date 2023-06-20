@@ -1,9 +1,9 @@
 <?php 
 
-namespace PhpParser;
+namespace GLPchp\Compile\PhpParser;
 
-use PhpParser\NodeVisitor\FindingVisitor;
-use PhpParser\NodeVisitor\FirstFindingVisitor;
+use GLPchp\Compile\PhpParser\NodeVisitor\FindingVisitor;
+use GLPchp\Compile\PhpParser\NodeVisitor\FirstFindingVisitor;
 
 class NodeFinder
 {

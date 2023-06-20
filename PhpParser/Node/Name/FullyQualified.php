@@ -1,8 +1,9 @@
 <?php 
 
-namespace PhpParser\Node\Name;
+namespace GLPchp\Compile\PhpParser\Node;
 
-class FullyQualified extends \PhpParser\Node\Name
+
+class FullyQualified extends \GLPchp\Compile\PhpParser\Node\Name
 {
     /**
      * Checks whether the name is unqualified. (E.g. Name)

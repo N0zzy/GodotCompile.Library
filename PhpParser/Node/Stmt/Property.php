@@ -1,11 +1,11 @@
 <?php 
 
-namespace PhpParser\Node\Stmt;
+namespace GLPchp\Compile\PhpParser\Node\Stmt;
 
-use PhpParser\Node;
-use PhpParser\Node\ComplexType;
-use PhpParser\Node\Identifier;
-use PhpParser\Node\Name;
+use GLPchp\Compile\PhpParser\Node;
+use GLPchp\Compile\PhpParser\Node\ComplexType;
+use GLPchp\Compile\PhpParser\Node\Identifier;
+use GLPchp\Compile\PhpParser\Node\Name;
 
 class Property extends Node\Stmt
 {

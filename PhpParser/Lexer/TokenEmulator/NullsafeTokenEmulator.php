@@ -1,8 +1,8 @@
 <?php 
 
-namespace PhpParser\Lexer\TokenEmulator;
+namespace GLPchp\Compile\PhpParser\Lexer\TokenEmulator;
 
-use PhpParser\Lexer\Emulative;
+use GLPchp\Compile\PhpParser\Lexer\Emulative;
 
 final class NullsafeTokenEmulator extends TokenEmulator
 {

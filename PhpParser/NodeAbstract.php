@@ -1,6 +1,6 @@
 <?php 
 
-namespace PhpParser;
+namespace GLPchp\Compile\PhpParser;
 
 abstract class NodeAbstract implements Node, \JsonSerializable
 {

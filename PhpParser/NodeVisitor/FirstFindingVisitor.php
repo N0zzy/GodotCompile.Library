@@ -1,10 +1,10 @@
 <?php 
 
-namespace PhpParser\NodeVisitor;
+namespace GLPchp\Compile\PhpParser\NodeVisitor;
 
-use PhpParser\Node;
-use PhpParser\NodeTraverser;
-use PhpParser\NodeVisitorAbstract;
+use GLPchp\Compile\PhpParser\Node;
+use GLPchp\Compile\PhpParser\NodeTraverser;
+use GLPchp\Compile\PhpParser\NodeVisitorAbstract;
 
 /**
  * This visitor can be used to find the first node satisfying some criterion determined by

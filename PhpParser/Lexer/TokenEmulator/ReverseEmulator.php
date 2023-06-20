@@ -1,6 +1,6 @@
 <?php 
 
-namespace PhpParser\Lexer\TokenEmulator;
+namespace GLPchp\Compile\PhpParser\Lexer\TokenEmulator;
 
 /**
  * Reverses emulation direction of the inner emulator.

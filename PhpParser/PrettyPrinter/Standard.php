@@ -1,17 +1,17 @@
 <?php 
 
-namespace PhpParser\PrettyPrinter;
+namespace GLPchp\Compile\PhpParser\PrettyPrinter;
 
-use PhpParser\Node;
-use PhpParser\Node\Expr;
-use PhpParser\Node\Expr\AssignOp;
-use PhpParser\Node\Expr\BinaryOp;
-use PhpParser\Node\Expr\Cast;
-use PhpParser\Node\Name;
-use PhpParser\Node\Scalar;
-use PhpParser\Node\Scalar\MagicConst;
-use PhpParser\Node\Stmt;
-use PhpParser\PrettyPrinterAbstract;
+use GLPchp\Compile\PhpParser\Node;
+use GLPchp\Compile\PhpParser\Node\Expr;
+use GLPchp\Compile\PhpParser\Node\Expr\AssignOp;
+use GLPchp\Compile\PhpParser\Node\Expr\BinaryOp;
+use GLPchp\Compile\PhpParser\Node\Expr\Cast;
+use GLPchp\Compile\PhpParser\Node\Name;
+use GLPchp\Compile\PhpParser\Node\Scalar;
+use GLPchp\Compile\PhpParser\Node\Scalar\MagicConst;
+use GLPchp\Compile\PhpParser\Node\Stmt;
+use GLPchp\Compile\PhpParser\PrettyPrinterAbstract;
 
 class Standard extends PrettyPrinterAbstract
 {

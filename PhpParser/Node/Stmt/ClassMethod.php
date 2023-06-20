@@ -1,9 +1,9 @@
 <?php 
 
-namespace PhpParser\Node\Stmt;
+namespace GLPchp\Compile\PhpParser\Node\Stmt;
 
-use PhpParser\Node;
-use PhpParser\Node\FunctionLike;
+use GLPchp\Compile\PhpParser\Node;
+use GLPchp\Compile\PhpParser\Node\FunctionLike;
 
 class ClassMethod extends Node\Stmt implements FunctionLike
 {

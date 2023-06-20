@@ -1,6 +1,6 @@
 <?php 
 
-namespace PhpParser\Internal;
+namespace GLPchp\Compile\PhpParser\Internal;
 
 /**
  * @internal

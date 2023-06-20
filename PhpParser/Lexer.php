@@ -1,8 +1,8 @@
 <?php 
 
-namespace PhpParser;
+namespace GLPchp\Compile\PhpParser;
 
-use PhpParser\Parser\Tokens;
+use GLPchp\Compile\PhpParser\Parser\Tokens;
 
 class Lexer
 {

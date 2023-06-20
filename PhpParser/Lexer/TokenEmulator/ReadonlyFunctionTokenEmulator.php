@@ -1,8 +1,8 @@
 <?php 
 
-namespace PhpParser\Lexer\TokenEmulator;
+namespace GLPchp\Compile\PhpParser\Lexer\TokenEmulator;
 
-use PhpParser\Lexer\Emulative;
+use GLPchp\Compile\PhpParser\Lexer\Emulative;
 
 /*
  * In PHP 8.1, "readonly(" was special cased in the lexer in order to support functions with

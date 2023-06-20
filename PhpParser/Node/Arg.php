@@ -1,9 +1,9 @@
 <?php 
 
-namespace PhpParser\Node;
+namespace GLPchp\Compile\PhpParser\Node;
 
-use PhpParser\Node\VariadicPlaceholder;
-use PhpParser\NodeAbstract;
+use GLPchp\Compile\PhpParser\Node\VariadicPlaceholder;
+use GLPchp\Compile\PhpParser\NodeAbstract;
 
 class Arg extends NodeAbstract
 {

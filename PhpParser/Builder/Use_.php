@@ -1,11 +1,11 @@
 <?php 
 
-namespace PhpParser\Builder;
+namespace GLPchp\Compile\PhpParser\Builder;
 
-use PhpParser\Builder;
-use PhpParser\BuilderHelpers;
-use PhpParser\Node;
-use PhpParser\Node\Stmt;
+use GLPchp\Compile\PhpParser\Builder;
+use GLPchp\Compile\PhpParser\BuilderHelpers;
+use GLPchp\Compile\PhpParser\Node;
+use GLPchp\Compile\PhpParser\Node\Stmt;
 
 class Use_ implements Builder
 {

@@ -1,9 +1,9 @@
 <?php 
 
-namespace PhpParser\Node\Stmt;
+namespace GLPchp\Compile\PhpParser\Node\Stmt;
 
-use PhpParser\Error;
-use PhpParser\Node;
+use GLPchp\Compile\PhpParser\Error;
+use GLPchp\Compile\PhpParser\Node;
 
 class Class_ extends ClassLike
 {

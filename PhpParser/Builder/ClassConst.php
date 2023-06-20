@@ -1,15 +1,13 @@
 <?php
 
+namespace GLPchp\Compile\PhpParser\Builder;
 
-
-namespace PhpParser\Builder;
-
-use PhpParser;
-use PhpParser\BuilderHelpers;
-use PhpParser\Node;
-use PhpParser\Node\Const_;
-use PhpParser\Node\Identifier;
-use PhpParser\Node\Stmt;
+use GLPchp\Compile\PhpParser;
+use GLPchp\Compile\PhpParser\BuilderHelpers;
+use GLPchp\Compile\PhpParser\Node;
+use GLPchp\Compile\PhpParser\Node\Const_;
+use GLPchp\Compile\PhpParser\Node\Identifier;
+use GLPchp\Compile\PhpParser\Node\Stmt;
 
 class ClassConst implements PhpParser\Builder
 {

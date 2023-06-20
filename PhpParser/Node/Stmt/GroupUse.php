@@ -1,9 +1,9 @@
 <?php 
 
-namespace PhpParser\Node\Stmt;
+namespace GLPchp\Compile\PhpParser\Node\Stmt;
 
-use PhpParser\Node\Name;
-use PhpParser\Node\Stmt;
+use GLPchp\Compile\PhpParser\Node\Name;
+use GLPchp\Compile\PhpParser\Node\Stmt;
 
 class GroupUse extends Stmt
 {

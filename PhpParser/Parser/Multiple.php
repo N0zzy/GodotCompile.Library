@@ -1,10 +1,10 @@
 <?php 
 
-namespace PhpParser\Parser;
+namespace GLPchp\Compile\PhpParser\Parser;
 
-use PhpParser\Error;
-use PhpParser\ErrorHandler;
-use PhpParser\Parser;
+use GLPchp\Compile\PhpParser\Error;
+use GLPchp\Compile\PhpParser\ErrorHandler;
+use GLPchp\Compile\PhpParser\Parser;
 
 class Multiple implements Parser
 {

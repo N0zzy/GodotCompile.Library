@@ -1,13 +1,13 @@
 <?php
 
-namespace PhpParser\Parser;
+namespace GLPchp\Compile\PhpParser\Parser;
 
-use PhpParser\Error;
-use PhpParser\Node;
-use PhpParser\Node\Expr;
-use PhpParser\Node\Name;
-use PhpParser\Node\Scalar;
-use PhpParser\Node\Stmt;
+use GLPchp\Compile\PhpParser\Error;
+use GLPchp\Compile\PhpParser\Node;
+use GLPchp\Compile\PhpParser\Node\Expr;
+use GLPchp\Compile\PhpParser\Node\Name;
+use GLPchp\Compile\PhpParser\Node\Scalar;
+use GLPchp\Compile\PhpParser\Node\Stmt;
 
 /* This is an automatically GENERATED file, which should not be manually edited.
  * Instead edit one of the following:
@@ -15,7 +15,7 @@ use PhpParser\Node\Stmt;
  *  * the skeleton file grammar/parser.template
  *  * the preprocessing script grammar/rebuildParsers.php
  */
-class Php5 extends \PhpParser\ParserAbstract
+class Php5 extends \GLPchp\Compile\PhpParser\ParserAbstract
 {
     protected $tokenToSymbolMapSize = 396;
     protected $actionTableSize = 1099;

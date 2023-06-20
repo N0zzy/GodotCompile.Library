@@ -1,9 +1,9 @@
 <?php 
 
-namespace PhpParser\Node\Scalar;
+namespace GLPchp\Compile\PhpParser\Node\Scalar;
 
-use PhpParser\Error;
-use PhpParser\Node\Scalar;
+use GLPchp\Compile\PhpParser\Error;
+use GLPchp\Compile\PhpParser\Node\Scalar;
 
 class LNumber extends Scalar
 {

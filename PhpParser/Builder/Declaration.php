@@ -1,9 +1,9 @@
 <?php 
 
-namespace PhpParser\Builder;
+namespace GLPchp\Compile\PhpParser\Builder;
 
-use PhpParser;
-use PhpParser\BuilderHelpers;
+use GLPchp\Compile\PhpParser;
+use GLPchp\Compile\PhpParser\BuilderHelpers;
 
 abstract class Declaration implements PhpParser\Builder
 {

@@ -1,14 +1,14 @@
 <?php 
 
-namespace PhpParser;
+namespace GLPchp\Compile\PhpParser;
 
-use PhpParser\Node\Arg;
-use PhpParser\Node\Expr;
-use PhpParser\Node\Expr\BinaryOp\Concat;
-use PhpParser\Node\Identifier;
-use PhpParser\Node\Name;
-use PhpParser\Node\Scalar\String_;
-use PhpParser\Node\Stmt\Use_;
+use GLPchp\Compile\PhpParser\Node\Arg;
+use GLPchp\Compile\PhpParser\Node\Expr;
+use GLPchp\Compile\PhpParser\Node\Expr\BinaryOp\Concat;
+use GLPchp\Compile\PhpParser\Node\Identifier;
+use GLPchp\Compile\PhpParser\Node\Name;
+use GLPchp\Compile\PhpParser\Node\Scalar\String_;
+use GLPchp\Compile\PhpParser\Node\Stmt\Use_;
 
 class BuilderFactory
 {

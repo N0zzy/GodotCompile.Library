@@ -1,6 +1,6 @@
 <?php 
 
-namespace PhpParser\Node;
+namespace GLPchp\Compile\PhpParser\Node;
 
 class NullableType extends ComplexType
 {

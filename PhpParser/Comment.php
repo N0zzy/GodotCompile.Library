@@ -1,6 +1,6 @@
 <?php 
 
-namespace PhpParser;
+namespace GLPchp\Compile\PhpParser;
 
 class Comment implements \JsonSerializable
 {

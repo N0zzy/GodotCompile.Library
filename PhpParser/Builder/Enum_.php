@@ -1,13 +1,13 @@
 <?php 
 
-namespace PhpParser\Builder;
+namespace GLPchp\Compile\PhpParser\Builder;
 
-use PhpParser;
-use PhpParser\BuilderHelpers;
-use PhpParser\Node;
-use PhpParser\Node\Identifier;
-use PhpParser\Node\Name;
-use PhpParser\Node\Stmt;
+use GLPchp\Compile\PhpParser;
+use GLPchp\Compile\PhpParser\BuilderHelpers;
+use GLPchp\Compile\PhpParser\Node;
+use GLPchp\Compile\PhpParser\Node\Identifier;
+use GLPchp\Compile\PhpParser\Node\Name;
+use GLPchp\Compile\PhpParser\Node\Stmt;
 
 class Enum_ extends Declaration
 {

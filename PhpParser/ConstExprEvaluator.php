@@ -1,10 +1,10 @@
 <?php
 
-namespace PhpParser;
+namespace GLPchp\Compile\PhpParser;
 
 use function array_merge;
-use PhpParser\Node\Expr;
-use PhpParser\Node\Scalar;
+use GLPchp\Compile\PhpParser\Node\Expr;
+use GLPchp\Compile\PhpParser\Node\Scalar;
 
 /**
  * Evaluates constant expressions.

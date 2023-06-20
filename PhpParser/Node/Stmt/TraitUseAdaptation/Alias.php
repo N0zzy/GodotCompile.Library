@@ -1,8 +1,8 @@
 <?php 
 
-namespace PhpParser\Node\Stmt\TraitUseAdaptation;
+namespace GLPchp\Compile\PhpParser\Node\Stmt\TraitUseAdaptation;
 
-use PhpParser\Node;
+use GLPchp\Compile\PhpParser\Node;
 
 class Alias extends Node\Stmt\TraitUseAdaptation
 {

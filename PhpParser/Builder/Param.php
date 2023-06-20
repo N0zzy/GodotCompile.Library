@@ -1,10 +1,10 @@
 <?php 
 
-namespace PhpParser\Builder;
+namespace GLPchp\Compile\PhpParser\Builder;
 
-use PhpParser;
-use PhpParser\BuilderHelpers;
-use PhpParser\Node;
+use GLPchp\Compile\PhpParser;
+use GLPchp\Compile\PhpParser\BuilderHelpers;
+use GLPchp\Compile\PhpParser\Node;
 
 class Param implements PhpParser\Builder
 {

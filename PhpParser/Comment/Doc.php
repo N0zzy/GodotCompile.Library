@@ -1,7 +1,7 @@
 <?php 
 
-namespace PhpParser\Comment;
+namespace GLPchp\Compile\PhpParser\Comment;
 
-class Doc extends \PhpParser\Comment
+class Doc extends \GLPchp\Compile\PhpParser\Comment
 {
 }

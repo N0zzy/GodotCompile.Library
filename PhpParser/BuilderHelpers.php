@@ -1,14 +1,14 @@
 <?php 
 
-namespace PhpParser;
+namespace GLPchp\Compile\PhpParser;
 
-use PhpParser\Node\ComplexType;
-use PhpParser\Node\Expr;
-use PhpParser\Node\Identifier;
-use PhpParser\Node\Name;
-use PhpParser\Node\NullableType;
-use PhpParser\Node\Scalar;
-use PhpParser\Node\Stmt;
+use GLPchp\Compile\PhpParser\Node\ComplexType;
+use GLPchp\Compile\PhpParser\Node\Expr;
+use GLPchp\Compile\PhpParser\Node\Identifier;
+use GLPchp\Compile\PhpParser\Node\Name;
+use GLPchp\Compile\PhpParser\Node\NullableType;
+use GLPchp\Compile\PhpParser\Node\Scalar;
+use GLPchp\Compile\PhpParser\Node\Stmt;
 
 /**
  * This class defines helpers used in the implementation of builders. Don't use it directly.

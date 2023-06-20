@@ -1,6 +1,6 @@
 <?php 
 
-namespace PhpParser\Node;
+namespace GLPchp\Compile\PhpParser\Node;
 
 /**
  * Represents a name that is written in source code with a leading dollar,

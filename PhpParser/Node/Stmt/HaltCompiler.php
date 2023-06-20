@@ -1,8 +1,8 @@
 <?php 
 
-namespace PhpParser\Node\Stmt;
+namespace GLPchp\Compile\PhpParser\Node\Stmt;
 
-use PhpParser\Node\Stmt;
+use GLPchp\Compile\PhpParser\Node\Stmt;
 
 class HaltCompiler extends Stmt
 {

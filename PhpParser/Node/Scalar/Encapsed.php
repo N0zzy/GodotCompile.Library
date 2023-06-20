@@ -1,9 +1,9 @@
 <?php 
 
-namespace PhpParser\Node\Scalar;
+namespace GLPchp\Compile\PhpParser\Node\Scalar;
 
-use PhpParser\Node\Expr;
-use PhpParser\Node\Scalar;
+use GLPchp\Compile\PhpParser\Node\Expr;
+use GLPchp\Compile\PhpParser\Node\Scalar;
 
 class Encapsed extends Scalar
 {

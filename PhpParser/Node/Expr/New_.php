@@ -1,11 +1,11 @@
 <?php 
 
-namespace PhpParser\Node\Expr;
+namespace GLPchp\Compile\PhpParser\Node\Expr;
 
-use PhpParser\Node;
-use PhpParser\Node\Arg;
-use PhpParser\Node\Expr;
-use PhpParser\Node\VariadicPlaceholder;
+use GLPchp\Compile\PhpParser\Node;
+use GLPchp\Compile\PhpParser\Node\Arg;
+use GLPchp\Compile\PhpParser\Node\Expr;
+use GLPchp\Compile\PhpParser\Node\VariadicPlaceholder;
 
 class New_ extends CallLike
 {

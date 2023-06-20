@@ -1,8 +1,8 @@
 <?php 
 
-namespace PhpParser\Node;
+namespace GLPchp\Compile\PhpParser\Node;
 
-use PhpParser\Node;
+use GLPchp\Compile\PhpParser\Node;
 
 interface FunctionLike extends Node
 {

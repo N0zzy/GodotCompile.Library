@@ -1,8 +1,8 @@
 <?php 
 
-namespace PhpParser\Node\Expr;
+namespace GLPchp\Compile\PhpParser\Node\Expr;
 
-use PhpParser\Node;
+use GLPchp\Compile\PhpParser\Node;
 
 class Throw_ extends Node\Expr
 {

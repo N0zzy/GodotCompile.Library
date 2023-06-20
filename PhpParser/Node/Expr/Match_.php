@@ -1,9 +1,9 @@
 <?php 
 
-namespace PhpParser\Node\Expr;
+namespace GLPchp\Compile\PhpParser\Node\Expr;
 
-use PhpParser\Node;
-use PhpParser\Node\MatchArm;
+use GLPchp\Compile\PhpParser\Node;
+use GLPchp\Compile\PhpParser\Node\MatchArm;
 
 class Match_ extends Node\Expr
 {

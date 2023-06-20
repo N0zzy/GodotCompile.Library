@@ -1,12 +1,12 @@
 <?php 
 
-namespace PhpParser;
+namespace GLPchp\Compile\PhpParser;
 
-use PhpParser\Node\Expr\Include_;
-use PhpParser\Node\Stmt\Class_;
-use PhpParser\Node\Stmt\GroupUse;
-use PhpParser\Node\Stmt\Use_;
-use PhpParser\Node\Stmt\UseUse;
+use GLPchp\Compile\PhpParser\Node\Expr\Include_;
+use GLPchp\Compile\PhpParser\Node\Stmt\Class_;
+use GLPchp\Compile\PhpParser\Node\Stmt\GroupUse;
+use GLPchp\Compile\PhpParser\Node\Stmt\Use_;
+use GLPchp\Compile\PhpParser\Node\Stmt\UseUse;
 
 class NodeDumper
 {

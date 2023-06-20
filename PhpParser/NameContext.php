@@ -1,10 +1,10 @@
 <?php 
 
-namespace PhpParser;
+namespace GLPchp\Compile\PhpParser;
 
-use PhpParser\Node\Name;
-use PhpParser\Node\Name\FullyQualified;
-use PhpParser\Node\Stmt;
+use GLPchp\Compile\PhpParser\Node\Name;
+use GLPchp\Compile\PhpParser\Node\Name\FullyQualified;
+use GLPchp\Compile\PhpParser\Node\Stmt;
 
 class NameContext
 {

@@ -1,16 +1,27 @@
 <Project Sdk="Peachpie.NET.Sdk/1.1.9">
     <PropertyGroup>
         <TargetFramework>net7.0</TargetFramework>
-        <Description>GodotCompile.Library package (modification PhpParser for peachpie)</Description>
+        <Description>GLPchp.Compile.PhpParser package (modification PhpParser for peachpie)</Description>
         <PackageProjectUrl>https://github.com/N0zzy/GodotCompile.Library</PackageProjectUrl>
         <RepositoryUrl>https://github.com/N0zzy/GodotCompile.Library</RepositoryUrl>
         <RepositoryType>library</RepositoryType>
         <AssemblyVersion>1.0.0.0</AssemblyVersion>
+        <AssemblyName>GLPchp.Compile.PhpParser</AssemblyName>
+        <RootNamespace>GLPchp.Compile.PhpParser</RootNamespace>
+        <PackageId>GLPchp.Compile.PhpParser</PackageId>
+        <Authors>N0zzy</Authors>
+        <Title>GLPchp.Compile.PhpParser</Title>
     </PropertyGroup>
     <ItemGroup>
         <Compile Include="**/*.php" />
     </ItemGroup>
     <ItemGroup>
       <PackageReference Include="GLPchp" Version="0.2.3" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="packages\" />
     </ItemGroup>
 </Project>

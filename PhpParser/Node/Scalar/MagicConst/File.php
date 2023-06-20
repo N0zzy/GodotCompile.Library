@@ -1,8 +1,8 @@
 <?php 
 
-namespace PhpParser\Node\Scalar\MagicConst;
+namespace GLPchp\Compile\PhpParser\Node\Scalar\MagicConst;
 
-use PhpParser\Node\Scalar\MagicConst;
+use GLPchp\Compile\PhpParser\Node\Scalar\MagicConst;
 
 class File extends MagicConst
 {

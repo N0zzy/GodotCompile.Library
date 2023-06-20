@@ -1,6 +1,6 @@
 <?php 
 
-namespace PhpParser;
+namespace GLPchp\Compile\PhpParser;
 
 /*
  * This parser is based on a skeleton written by Moriyoshi Koizumi, which in
@@ -8,26 +8,26 @@ namespace PhpParser;
  */
 
 use GLPchp\Compile\Service\Logger;
-use PhpParser\Node\Expr;
-use PhpParser\Node\Expr\Cast\Double;
-use PhpParser\Node\Name;
-use PhpParser\Node\Param;
-use PhpParser\Node\Scalar\Encapsed;
-use PhpParser\Node\Scalar\LNumber;
-use PhpParser\Node\Scalar\String_;
-use PhpParser\Node\Stmt\Class_;
-use PhpParser\Node\Stmt\ClassConst;
-use PhpParser\Node\Stmt\ClassMethod;
-use PhpParser\Node\Stmt\Else_;
-use PhpParser\Node\Stmt\ElseIf_;
-use PhpParser\Node\Stmt\Enum_;
-use PhpParser\Node\Stmt\Interface_;
-use PhpParser\Node\Stmt\Namespace_;
-use PhpParser\Node\Stmt\Nop;
-use PhpParser\Node\Stmt\Property;
-use PhpParser\Node\Stmt\TryCatch;
-use PhpParser\Node\Stmt\UseUse;
-use PhpParser\Node\VarLikeIdentifier;
+use GLPchp\Compile\PhpParser\Node\Expr;
+use GLPchp\Compile\PhpParser\Node\Expr\Cast\Double;
+use GLPchp\Compile\PhpParser\Node\Name;
+use GLPchp\Compile\PhpParser\Node\Param;
+use GLPchp\Compile\PhpParser\Node\Scalar\Encapsed;
+use GLPchp\Compile\PhpParser\Node\Scalar\LNumber;
+use GLPchp\Compile\PhpParser\Node\Scalar\String_;
+use GLPchp\Compile\PhpParser\Node\Stmt\Class_;
+use GLPchp\Compile\PhpParser\Node\Stmt\ClassConst;
+use GLPchp\Compile\PhpParser\Node\Stmt\ClassMethod;
+use GLPchp\Compile\PhpParser\Node\Stmt\Else_;
+use GLPchp\Compile\PhpParser\Node\Stmt\ElseIf_;
+use GLPchp\Compile\PhpParser\Node\Stmt\Enum_;
+use GLPchp\Compile\PhpParser\Node\Stmt\Interface_;
+use GLPchp\Compile\PhpParser\Node\Stmt\Namespace_;
+use GLPchp\Compile\PhpParser\Node\Stmt\Nop;
+use GLPchp\Compile\PhpParser\Node\Stmt\Property;
+use GLPchp\Compile\PhpParser\Node\Stmt\TryCatch;
+use GLPchp\Compile\PhpParser\Node\Stmt\UseUse;
+use GLPchp\Compile\PhpParser\Node\VarLikeIdentifier;
 
 abstract class ParserAbstract implements Parser
 {

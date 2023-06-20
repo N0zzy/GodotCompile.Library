@@ -1,8 +1,8 @@
 <?php 
 
-namespace PhpParser\Node;
+namespace GLPchp\Compile\PhpParser\Node;
 
-use PhpParser\NodeAbstract;
+use GLPchp\Compile\PhpParser\NodeAbstract;
 
 /**
  * Represents a non-namespaced name. Namespaced names are represented using Name nodes.

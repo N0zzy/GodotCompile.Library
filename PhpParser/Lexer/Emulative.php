@@ -1,23 +1,23 @@
 <?php 
 
-namespace PhpParser\Lexer;
+namespace GLPchp\Compile\PhpParser\Lexer;
 
-use PhpParser\Error;
-use PhpParser\ErrorHandler;
-use PhpParser\Lexer;
-use PhpParser\Lexer\TokenEmulator\AttributeEmulator;
-use PhpParser\Lexer\TokenEmulator\EnumTokenEmulator;
-use PhpParser\Lexer\TokenEmulator\CoaleseEqualTokenEmulator;
-use PhpParser\Lexer\TokenEmulator\ExplicitOctalEmulator;
-use PhpParser\Lexer\TokenEmulator\FlexibleDocStringEmulator;
-use PhpParser\Lexer\TokenEmulator\FnTokenEmulator;
-use PhpParser\Lexer\TokenEmulator\MatchTokenEmulator;
-use PhpParser\Lexer\TokenEmulator\NullsafeTokenEmulator;
-use PhpParser\Lexer\TokenEmulator\NumericLiteralSeparatorEmulator;
-use PhpParser\Lexer\TokenEmulator\ReadonlyFunctionTokenEmulator;
-use PhpParser\Lexer\TokenEmulator\ReadonlyTokenEmulator;
-use PhpParser\Lexer\TokenEmulator\ReverseEmulator;
-use PhpParser\Lexer\TokenEmulator\TokenEmulator;
+use GLPchp\Compile\PhpParser\Error;
+use GLPchp\Compile\PhpParser\ErrorHandler;
+use GLPchp\Compile\PhpParser\Lexer;
+use GLPchp\Compile\PhpParser\Lexer\TokenEmulator\AttributeEmulator;
+use GLPchp\Compile\PhpParser\Lexer\TokenEmulator\EnumTokenEmulator;
+use GLPchp\Compile\PhpParser\Lexer\TokenEmulator\CoaleseEqualTokenEmulator;
+use GLPchp\Compile\PhpParser\Lexer\TokenEmulator\ExplicitOctalEmulator;
+use GLPchp\Compile\PhpParser\Lexer\TokenEmulator\FlexibleDocStringEmulator;
+use GLPchp\Compile\PhpParser\Lexer\TokenEmulator\FnTokenEmulator;
+use GLPchp\Compile\PhpParser\Lexer\TokenEmulator\MatchTokenEmulator;
+use GLPchp\Compile\PhpParser\Lexer\TokenEmulator\NullsafeTokenEmulator;
+use GLPchp\Compile\PhpParser\Lexer\TokenEmulator\NumericLiteralSeparatorEmulator;
+use GLPchp\Compile\PhpParser\Lexer\TokenEmulator\ReadonlyFunctionTokenEmulator;
+use GLPchp\Compile\PhpParser\Lexer\TokenEmulator\ReadonlyTokenEmulator;
+use GLPchp\Compile\PhpParser\Lexer\TokenEmulator\ReverseEmulator;
+use GLPchp\Compile\PhpParser\Lexer\TokenEmulator\TokenEmulator;
 
 class Emulative extends Lexer
 {

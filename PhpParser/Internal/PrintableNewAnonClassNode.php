@@ -1,9 +1,9 @@
 <?php 
 
-namespace PhpParser\Internal;
+namespace GLPchp\Compile\PhpParser\Internal;
 
-use PhpParser\Node;
-use PhpParser\Node\Expr;
+use GLPchp\Compile\PhpParser\Node;
+use GLPchp\Compile\PhpParser\Node\Expr;
 
 /**
  * This node is used internally by the format-preserving pretty printer to print anonymous classes.

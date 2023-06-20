@@ -1,10 +1,10 @@
 <?php 
 
-namespace PhpParser\Node\Expr;
+namespace GLPchp\Compile\PhpParser\Node\Expr;
 
-use PhpParser\Node\Expr;
-use PhpParser\Node\Identifier;
-use PhpParser\Node\Name;
+use GLPchp\Compile\PhpParser\Node\Expr;
+use GLPchp\Compile\PhpParser\Node\Identifier;
+use GLPchp\Compile\PhpParser\Node\Name;
 
 class ClassConstFetch extends Expr
 {
