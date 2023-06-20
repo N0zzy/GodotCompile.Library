@@ -14,9 +14,7 @@
     </PropertyGroup>
     <ItemGroup>
         <Compile Include="**/*.php" />
-    </ItemGroup>
-    <ItemGroup>
-      <PackageReference Include="GLPchp" Version="0.2.3" />
+        <Folder Include="src\" />
     </ItemGroup>
     <ItemGroup>
         <None Include="README.md" Pack="true" PackagePath="\" />

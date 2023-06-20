@@ -12,7 +12,6 @@ class JsonDecoder
         if (json_last_error()) {
             throw new \RuntimeException('JSON decoding error: ' . json_last_error_msg());
         }
-
         return $this->decodeRecursive($value);
     }
 

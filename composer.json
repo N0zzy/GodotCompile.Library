@@ -2,7 +2,7 @@
   "autoload": {
     "psr-4": {
       "": "",
-      "GLPchp\\Compile\\PhpParser\\": "PhpParser/"
+      "GLPchp\\Compile\\PhpParser\\": "src/PhpParser/"
     }
   }
 }

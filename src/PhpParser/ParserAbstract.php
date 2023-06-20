@@ -6,8 +6,6 @@ namespace GLPchp\Compile\PhpParser;
  * This parser is based on a skeleton written by Moriyoshi Koizumi, which in
  * turn is based on work by Masato Bito.
  */
-
-use GLPchp\Compile\Service\Logger;
 use GLPchp\Compile\PhpParser\Node\Expr;
 use GLPchp\Compile\PhpParser\Node\Expr\Cast\Double;
 use GLPchp\Compile\PhpParser\Node\Name;

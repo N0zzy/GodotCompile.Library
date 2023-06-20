@@ -9,7 +9,7 @@ use GLPchp\Compile\PhpParser\Node\Name;
 use GLPchp\Compile\PhpParser\Node\NullableType;
 use GLPchp\Compile\PhpParser\Node\Scalar;
 use GLPchp\Compile\PhpParser\Node\Stmt;
-
+use GLPchp\Compile\PhpParser\Node\Name\FullyQualified;
 /**
  * This class defines helpers used in the implementation of builders. Don't use it directly.
  *
@@ -114,7 +114,7 @@ final class BuilderHelpers
             }
 
             if ($name[0] === '\\') {
-                return new Name\FullyQualified(substr($name, 1));
+                return new FullyQualified(substr($name, 1));
             }
 
             if (0 === strpos($name, 'namespace\\')) {
